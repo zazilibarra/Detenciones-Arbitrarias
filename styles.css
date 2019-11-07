@@ -43,13 +43,67 @@ button:hover {
 }
 
 .contenedor {
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     height: inherit;
+}
+
+.div-banner {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url("images/bg-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-height: 700px;
+}
+
+.div-tittle {
+    padding-top: 150px;
+    padding-bottom: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bg-tenue{
+    background-color: rgba(13, 11, 30, 0.08);
+    padding: 10px;
+}
+
+.div-tittle h2 {
+    font-size: 55px;
+    line-height: 1em;
+    color: #1e1d24;
+    font-weight: 400;
+}
+
+.div-tittle h1 {
+    font-size: 60px;
+    line-height: 1em;
+    color: #1e1d24;
+
+}
+
+.div-tittle h2 + h1 {
+    margin-top: -20px;
+}
+
+.div-tittle p {
+    font-size: 28px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.div-tittle button {
+    color: #FFF;
 }
 
 .header-contacto {
@@ -258,7 +312,7 @@ span.icon-search:hover {
 }
 
 .div-bg-why-educat {
-    background: transparent url("images/why.jpg") 0% 0%/cover no-repeat scroll;
+    background: transparent url("images/objetivo.png") 0% 0%/cover no-repeat scroll;
     color: #fff;
     padding-bottom: 54px;
     position: relative;
@@ -297,11 +351,6 @@ span.icon-search:hover {
 .div-last-news {
     padding-top: 120px;
     height: 800px;
-}
-
-.div-tittle {
-    text-align: center;
-    margin-bottom: 87px;
 }
 
 .div-tittle h3 {
@@ -423,17 +472,20 @@ span.icon-search:hover {
 }
 
 .div-info-footer>div {
-    width: 25%;
+    width: 23%;
     float: left;
 }
 
 .div-info-footer h3 {
-    font-family: Raleway;
     font-weight: 800;
     margin-bottom: 30px;
     color: #fff;
     font-size: 24px;
     margin-top: 0;
+}
+
+.div-info-footer h3:hover {
+    color: #C00436;
 }
 
 .div-social-media {
@@ -475,6 +527,7 @@ span.icon-search:hover {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .number-demos {
@@ -486,19 +539,15 @@ span.icon-search:hover {
 .demos {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
-    margin-top: 40px;
+    margin: 40px 0 80px 0;
 }
 
 .contenedor-demo {
-    flex: 0 0 33.33333%;
-    max-width: 33.33333%;
-    position: relative;
+    flex: 0 0 20%;
+    max-width: 20%;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    float: none;
+    padding-left: 10%;
+    text-align: center;
 }
 
 .contenedor-demo img {
