@@ -34,7 +34,11 @@ button {
     background: #C00436;
     cursor: pointer;
     padding: 15px 35px;
+    color: #fff;
+}
 
+button a{
+    color: #FFF;
 }
 
 button:hover {
@@ -62,11 +66,11 @@ button:hover {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    max-height: 700px;
+    max-height: 600px;
 }
 
 .div-tittle {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -88,7 +92,6 @@ button:hover {
     font-size: 60px;
     line-height: 1em;
     color: #1e1d24;
-
 }
 
 .div-tittle h2 + h1 {
@@ -96,7 +99,7 @@ button:hover {
 }
 
 .div-tittle p {
-    font-size: 28px;
+    font-size: 16px;
     font-weight: 300;
     color: #333;
     margin-bottom: 50px;
@@ -107,11 +110,11 @@ button:hover {
 }
 
 .header-contacto {
-    background: #2d3e50 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     font-size: 13px;
     position: relative;
     color: #fff;
-    height: 53px;
+    height: 35px;
     margin-top: 60px;
 }
 
@@ -462,13 +465,13 @@ span.icon-search:hover {
 .div-footer {
     background: #2d3e50 none repeat scroll 0 0;
     position: relative;
-    height: 450px;
+    height: 300px;
+    margin-top: 40px;
 }
 
 .div-info-footer {
-    padding: 130px 0 65px;
+    padding: 50px 0 50px;
     color: #ffffff;
-    height: 250px;
 }
 
 .div-info-footer>div {
@@ -480,7 +483,7 @@ span.icon-search:hover {
     font-weight: 800;
     margin-bottom: 30px;
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 0;
 }
 
@@ -508,11 +511,10 @@ span.icon-search:hover {
 }
 
 .div-img-ig {
-    display: inline-block;
     float: left;
     margin-bottom: 15px;
-    padding-right: 15px;
-    width: 25%;
+    padding: 0 50px 0 0;
+    /* width: 25%; */
 }
 
 .div-img-ig img {
