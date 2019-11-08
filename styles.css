@@ -70,10 +70,7 @@ button:hover {
 }
 
 .div-tittle {
-    padding-top: 100px;
-    padding-bottom: 200px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 15px 0;
 }
 
 .bg-tenue{
@@ -352,15 +349,14 @@ span.icon-search:hover {
 }
 
 .div-last-news {
-    padding-top: 120px;
-    height: 800px;
+    padding-top: 15px;
 }
 
 .div-tittle h3 {
     color: #2d3e50;
     font-size: 30px;
     line-height: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     margin-top: 0;
 }
@@ -398,7 +394,7 @@ span.icon-search:hover {
 
 .div-item-recuadro img {
     float: left;
-
+    width: 30%;
 }
 
 .div-info-rect {
