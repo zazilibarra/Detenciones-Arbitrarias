@@ -25,7 +25,7 @@ color: #C00436;
 }
 
 .social_icon span:hover{
-color: white;
+color: black;
 cursor: pointer;
 }
 
@@ -42,7 +42,7 @@ top: -45px;
 .input-group-prepend span{
 width: 50px;
 background-color: #C00436;
-color: black;
+color: white;
 border:0 !important;
 }
 
@@ -81,4 +81,8 @@ color: white;
 
 .links a{
 margin-left: 4px;
+}
+
+.card-footer{
+    font-size: 12px;
 }
